@@ -18,8 +18,8 @@ async def on_ready():
     
     await bot.add_cog(help_cog(bot))
     await bot.add_cog(music_cog(bot))
-
     print("ok")
+    
 with open('token.txt') as token_file:
     token = token_file.readline() #Your personal application token here
 
